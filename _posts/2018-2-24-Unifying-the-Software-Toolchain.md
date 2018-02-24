@@ -37,6 +37,7 @@ Most programming languges provide code organization systems, often called module
 Naming in programs are used as human-understandable identifiers for other parts of the programs. For most situations, the actual name is completely irrelevant to program behaviour. In lambda calculus, this problem is solved by using [De Bruijn indices](https://en.wikipedia.org/wiki/De_Bruijn_index), which eliminates names of variables and replaces them with natural numbers (the process is a sort of *expression cannonization*). Doing a similar such operations on more complex programming languages is challenging but not impossible. Whether or not Resequence should eliminate names is a design choice that needs to be made.
 
 **De Bruijn indices in lambda calculus**
+
 ![De Bruijn indices](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/De_Bruijn_index_illustration_1.svg/200px-De_Bruijn_index_illustration_1.svg.png "De Bruijn indices")
 
 There are situations where names influence program behaviour. Program behaviour is influenced when the notion of *structural equality* is used instead of *referential equality*. For example, [OCaml uses row type polymorphism](https://haifengl.wordpress.com/2014/07/16/ocaml-objects/) for object types. In this case, the name of the fields dramatically influence the type checker and overall program flow, so getting rid of the field names seems difficult or potentially impossible.
@@ -76,6 +77,7 @@ The potential for this type of system is huge. Suddenly a new language can be wr
 There are already some platforms (known as language workbenches) that can do this sort of thing: [JetBrains MPS](https://www.jetbrains.com/mps/), [Xtext](https://www.eclipse.org/Xtext/), and [Intentional Software](http://www.intentsoft.com/). Unfortunately the sandbox for these types of systems are pretty restrictive. For example, if you want to use a type system different from what MPS provides, you're out of luck. Perhaps there is a way to extend MPS, but the documenation is so poor that I can't figure out how to use it.
 
 **Rules for a Hindley Milner type system**
+
 ![_config.yml]({{ site.baseurl }}/images/hindleymilner.png)
 
 ## What's Old is New
