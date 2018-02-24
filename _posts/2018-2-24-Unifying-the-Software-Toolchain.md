@@ -88,7 +88,7 @@ Here are some related interesting miscellaneous links:
 * [Microsoft's Intentional Programming demo](https://www.youtube.com/watch?v=tSnnfUj1XCQ). This video is worth a watch.
 * [IPFS: A distributed hash table system](https://ipfs.io/). This could potentially be modified to store directed graphs.
 * The [Unison Programming Platform](http://unisonweb.org/)
-* [Isomorph: a projectional editor platform](https://isomorf.io/)
+* [Isomorf: a projectional editor platform](https://isomorf.io/)
 
 ## Moving Forward
 
