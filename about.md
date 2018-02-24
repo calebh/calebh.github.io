@@ -18,7 +18,7 @@ Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programmin
 
 ### Resume
 
-https://raw.githubusercontent.com/calebh/calebh.github.io/master/resume.pdf
+[View my resume as a PDF](https://raw.githubusercontent.com/calebh/calebh.github.io/master/resume.pdf)
 
 ### Contact me
 
