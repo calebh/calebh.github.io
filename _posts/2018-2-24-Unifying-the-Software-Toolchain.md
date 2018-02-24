@@ -89,6 +89,7 @@ Here are some related interesting miscellaneous links:
 * [IPFS: A distributed hash table system](https://ipfs.io/). This could potentially be modified to store directed graphs.
 * The [Unison Programming Platform](http://unisonweb.org/)
 * [Isomorf: a projectional editor platform](https://isomorf.io/)
+* [NixOS](https://nixos.org/), which fixes package dependency problems at the package level.
 
 ## Moving Forward
 
