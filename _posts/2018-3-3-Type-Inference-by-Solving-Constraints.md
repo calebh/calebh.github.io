@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Type Inference via Solving Constraints
+title: Type Inference by Solving Constraints
 ---
 
 Type inference is used in functional programming languages to automatically deduce the type of expressions based on how the expression is used. Inference reduces the burden on the programmer who would otherwise have to write all the types manually. Anyone who uses an imperative statically typed programming language knows how quickly explicit type annotations can become burdensome. Type inference is slowly permeating non-functional languages such as C++ and C#, which widens the potential use of inference.
