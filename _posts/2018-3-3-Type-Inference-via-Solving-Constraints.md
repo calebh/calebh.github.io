@@ -63,7 +63,7 @@ Although the constraint solver will not deal with type schemes directly, it is u
 
 We are now ready to define the types which will represent the constraints. The constraint type will be divided into three different value constructors:
 * ``Equal`` which tells the solver that the two type expressions must be equal. Equal also includes an ``ErrorMessage``, which is a lazily evaluated string. This ensures that the error messages are not actually created unless they are actually needed. In some of the compilers that I've written, the string includes information obtained from a disk read (to show the programmer where the error was in their source code), so making this lazy is very important for performance reasons. Including an error message here makes type errors considerable more understandable than what Algorithm W provides.
-* ``And`` which conjoins two constraints that must be both satisfied.
+* ``And`` which conjoins two constraints that must both be satisfied.
 * ``Trivial`` is a constraint which is always satisfied.
 
 ``conjoinConstraints`` is a helper function which joins a list of constraints together by using the ``And`` value constructor.
