@@ -93,6 +93,10 @@ Now we can test our solver by writing some test cases:
 
 {% gist 7bf20f9112dd0b27ad187a0f43350bd1 %}
 
+On lines 1-3, we can see the result of the first call to solve. The constraint we were trying to solve was ``(t1, Number) ~ (Unit, t2)``, and the output was the ``Map`` ``{t1 → Unit, t2 → Number}``, as expected. The second constraint was ``Unit ~ Number``, which wasn't solvable. The solver correctly raised a ``TypeError`` which notified us of the mistake in addition to showing the error message attached to the constraint.
+
+{% gist c08ed85c27c196659185a441ab3af968 %}
+
 ## Wrapping Up
 
 Generating constraints is usually a straightforward process, and can be accomplished by using a recursive function. The constraint generation process will be the subject of my next blog post.
