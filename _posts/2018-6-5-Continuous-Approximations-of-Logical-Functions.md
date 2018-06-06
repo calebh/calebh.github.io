@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Continuous Approximations of Logical Functions
+mathjax: true
 ---
 
 Logical functions are critical parts of almost every computer program. However, optimization problems are often solved over the set of real numbers, which does not fit nicely into this rigid binary logic. In many cases, we'd like to take advantage of applying logical operations, which includes their use in things like deep neural networks. How to describe these discrete functions in terms of a continuous function seems challenging. In this post I will show how we can apply the rules of logic to arrive at concise functions.
