@@ -21,13 +21,13 @@ not(x) = 1 - x
 
 Combining the definitions for AND and NOT gives us the continuous versions of the NAND gate:
 
-```text
+```
 nand(x, y) = 1 - x * y
 ```
 
 One important property of the NAND gate is its [universality](https://en.wikipedia.org/wiki/NAND_logic). This means that any logical system can be written in terms of NAND. This means that we can easily derive the other logic gates just from the definition of AND and NOT! Here they are:
 
-```txt
+```
 or(x, y) = 1 - (1 - a^2) * (1 - b^2)
 nor(x, y) = (1 - a^2) * (1 - b^2)
 xor(x, y) = 1 - (1 - a + a^2 * b) * (1 - b + a * b^2)
@@ -40,3 +40,7 @@ Due to the universality, any logical function you can think of can be written in
 many_equal(a, b, ..., z) = 1 - (1 - (1-a)^2 * (1-b)^2 * ... * (1-z)^2) * (1 - a^2 * b^2 * ... * z^2)
 which(cond, true_branch, false_branch) = cond * true_branch + (1 - cond) * false_branch
 ```
+
+<pre>
+test
+</pre>
