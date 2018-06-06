@@ -40,3 +40,5 @@ Due to the universality, any logical function you can think of can be written in
 many_equal(a, b, ..., z) = 1 - (1 - (1-a)^2 * (1-b)^2 * ... * (1-z)^2) * (1 - a^2 * b^2 * ... * z^2)
 which(cond, true_branch, false_branch) = cond * true_branch + (1 - cond) * false_branch
 ```
+
+$t^2$
