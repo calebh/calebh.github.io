@@ -11,7 +11,7 @@ We begin by making the restriction that the input to the continuous functions mu
 sigmoid(x) = 1 / (1+e^(-x))
 ```
 
-The two easiest logical operations to convert to continuous form are AND and NOT. Writing AND in terms of a simple multiplication keeps many of the same properties as the discrete version. When both arguments to AND are 1, the result is 1. In any other cases the input remains small, which is what we desire. This effect is maintained even when there are multiple arguments to AND. The NOT function is even simpler: it is simply 1-x.
+The two easiest logical operations to convert to continuous form are AND and NOT. Writing AND in terms of a simple multiplication keeps many of the same properties as the discrete version. When both arguments to AND are 1, the result is 1. In any other cases the output remains small, which is what we desire. This effect is maintained even when there are multiple arguments to AND. The NOT function is even simpler: it is simply 1-x.
 
 ```txt
 and(x, y) = x * y
@@ -39,4 +39,10 @@ Due to the universality, any logical function you can think of can be written in
 ```txt
 many_equal(a, b, ..., z) = 1 - (1 - (1-a)^2 * (1-b)^2 * ... * (1-z)^2) * (1 - a^2 * b^2 * ... * z^2)
 which(cond, true_branch, false_branch) = cond * true_branch + (1 - cond) * false_branch
+```
+
+Sometimes a penalty is useful to encourage an optimizer to reach a binary input. This function has a minima at 0 and 1:
+
+```txt
+binary_penalty(x) = (x * (x - 1))^2
 ```
