@@ -25,6 +25,6 @@ If you're interested in contributing, feel free to check out the MaestroFlow GUI
 
 ### Related Work
 
-[Eros (2007)](http://conal.net/papers/Eros/)
-[Node-RED](https://nodered.org/)
-[Total.js](https://www.totaljs.com/)
+* [Eros (2007)](http://conal.net/papers/Eros/)
+* [Node-RED](https://nodered.org/)
+* [Total.js](https://www.totaljs.com/)
