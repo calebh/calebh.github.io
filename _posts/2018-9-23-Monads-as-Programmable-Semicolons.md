@@ -1,5 +1,3 @@
-# Monads as Programmable Semicolons
-
 Some other monad tutorials assume that you have the prerequisite understanding of basic Haskell and some simpler type classes (``Functor`` and ``Monoid``). I will skip these in favor of jumping straight to monads. Understanding basic static typing like those found in C#, Java, or C++ is the only prerequisite for this guide.
 
 > A monad is just a monoid in the category of endofunctors, what's the problem?
