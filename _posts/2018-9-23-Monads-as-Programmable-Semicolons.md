@@ -1,6 +1,6 @@
 Some other monad tutorials assume that you have the prerequisite understanding of basic Haskell and some simpler type classes (``Functor`` and ``Monoid``). I will skip these in favor of jumping straight to monads. Understanding basic static typing like those found in C#, Java, or C++ is the only prerequisite for this guide.
 
-> A monad is just a monoid in the category of endofunctors, what's the problem?
+One more thing to clear up - **monads are used for more things than error handling**. This is a big mistake that I see all the time in monad tutorials. The authors will lead off by trying to handwave through the ``Maybe`` monad while completely missing that the point that they are actually much more general!
 
 ## Type Classes
 
