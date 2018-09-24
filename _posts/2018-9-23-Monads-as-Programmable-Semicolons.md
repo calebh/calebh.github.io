@@ -14,20 +14,20 @@ The easiest way to understand kinds is by looking at a bunch of examples of type
 
 Here is a table of some types in Haskell with their kinds:
 
-| Type Expression       | Kind              |
-|-----------------------|-------------------|
-| ``Int``               | ``*``             |
-| ``Bool``              | ``*``             |
-| ``Maybe``             | ``*->*``          |
-| ``Either``            | ``*->*->*``       |
-| ``[]``                | ``*->*``          |
-| ``->``                | ``*->*->*``       |
-| ``a->b``              | ``*``             |
-| ``[Either Int Bool]`` | ``*``             |
-| ``Either Int``        | ``*->*``          |
-| ``(->) a``            | ``*->*``          |
-| ``(,,,)``             | ``*->*->*->*->*`` |
-| ``Mu`` where <br/>``newtype Mu f = In { out :: f (Mu f) }`` | ``(* -> *) -> *``|
+| Type Expression       | Kind              | Description                                                                       |
+|-----------------------|-------------------|-----------------------------------------------------------------------------------|
+| ``Int``               | ``*``             | Integer                                                                           |
+| ``Bool``              | ``*``             | Boolean                                                                           |
+| ``Maybe``             | ``*->*``          | Optional type                                                                     |
+| ``Either``            | ``*->*->*``       | A value that can be one of two possible types                                     |
+| ``[]``                | ``*->*``          | List                                                                              |
+| ``->``                | ``*->*->*``       | Function                                                                          |
+| ``a->b``              | ``*``             | A function that takes in a value of type ``a`` and returns a value of type ``b `` |
+| ``[Either Int Bool]`` | ``*``             | A list of integers or booleans                                                    |
+| ``Either Int``        | ``*->*``          | A partially applied ``Either`` type                                               |
+| ``(->) a``            | ``*->*``          | A partially applied function type                                                 |
+| ``(,,,)``             | ``*->*->*->*->*`` | A four element tuple                                                              |
+| ``Mu`` where <br/>``newtype Mu f = In { out :: f (Mu f) }`` | ``(* -> *) -> *``| ???                                          |
 
 ## Monads
 
