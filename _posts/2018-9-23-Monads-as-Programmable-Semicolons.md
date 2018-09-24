@@ -13,6 +13,7 @@ Understand kinds is another critical prerequisite to understanding monads. Have 
 The easiest way to understand kinds is by looking at a bunch of examples of types and type constructors. Monomorphic types such as Int and Bool have kind ``*``. Type constructors are handled differently. An example of a type constructor is ``[]`` (list), which has kind ``* -> *``. So list is a type constructor that takes in a type (which we represent with an asterisk), and returns another type. Therefore ``[Int]`` has kind ``*``, since we applied the type ``Int`` to the list type constructor ``[]``, resulting in the type ``[Int]``. Types constructors can also in some situations be partially applied, just like value constructors. Kinds are right associative, so the kind ``* -> * -> *`` is the same as ``* -> ( * -> * )``.
 
 Here is a table of some types in Haskell with their kinds:
+
 | Type Expression       | Kind              |
 |-----------------------|-------------------|
 | ``Int``               | ``*``             |
