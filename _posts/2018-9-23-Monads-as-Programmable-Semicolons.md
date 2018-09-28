@@ -84,11 +84,13 @@ The ``do`` notation in Haskell is used for chaining invocations of ``>>=`` toget
 
 {% gist 7bc2280c6ce123cae73625c67504c9c9 %}
 
-Notice that ``expr2`` has access to ``x1`` due to the scoping of the lambdas. For more details on how this syntax sugar works, see this helpful guide: https://en.wikibooks.org/wiki/Haskell/do_notation
+Notice that ``expr2`` has access to ``x1`` due to the scoping of the lambdas, and the return value of the nested ``>>=`` call is used as the return value of the callback.
 
 Another way that these ``Monad`` functions can be sequenced is by using the ``>>`` operation. To syntax de-sugaring in this case is a little bit simpler:
 
 {% gist 363496e04a1e68d53e9d83295f0a87af %}
+
+For more details on how this syntax sugar works, see this helpful guide: https://en.wikibooks.org/wiki/Haskell/do_notation
 
 Here is what the Haskell docs say about ``>>``:
 > Sequentially compose two actions, discarding any value produced by the first, like sequencing operators (such as the semicolon) in imperative languages.
