@@ -2,6 +2,11 @@ Here is my version of "yet another monad tutorial". In this tutorial I will not 
 
 One more thing to clear up - **monads are used for more things than error handling**. This is a big mistake that I see all the time in monad tutorials. The authors will lead off by trying to handwave through the ``Maybe`` monad while completely missing that the point that they are actually much more general!
 
+> 1. A monad may not injure a human being or, through inaction, allow a human being to come to harm.
+> 2. A monad must obey orders given it by human beings except where such orders would conflict with the First Law.
+> 3. A monad must protect its own existence as long as such protection does not conflict with the First or Second Law. 
+> -Isaac Asimov
+
 ## Function Syntax
 
 In most mainstream languages, the arguments to a function are given in a comma separated list while enclosed with parenthesis. In Haskell, function arguments are given in a space separated list. This syntax difference is not just for asthetics - it has a purpose. When you define a new function in Haskell, the function can automatically be partially applied (the technical term is [currying](https://en.wikipedia.org/wiki/Currying)). Let's take a look at an example:
