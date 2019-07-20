@@ -11,7 +11,7 @@ Programming language designers are very interested in how type inference is impl
 
 Understanding kinds is a critical prerequisite to understand how types are represented by type expressions. Just as expressions have a type signature, a type expression has a *kind signature*. In its most basic form, a kind tells us how we can construct a type. We represent kinds by using asterisks ``*`` and kind functions ``->``. **The asterisk is pronounced as "type".** Here is how we will represent kinds in the constraint solver:
 
-{% gist a421518c10969445ac21ae2b852c2676 %}
+{% gist 2f0ec2c34aa21b1895f4774004d01452 %}
 
 So we have a representation of kinds, but what do they actually mean? The easiest way to understand kinds is by looking at a bunch of examples of types and type constructors. Monomorphic types such as ``Int`` and ``Bool`` have kind ``*``. **Type constructors** are handled differently. An example of a type constructor is ``[]`` (list), which has kind ``* -> *``. So list is a type constructor that takes in a type (which we represent with an asterisk), and returns another type. Therefore ``[Int]`` has kind ``*``, since we applied the type ``Int`` to the list type constructor ``[]``, resulting in the type ``[Int]``. Types constructors can also in some situations be partially applied, just like value constructors. Kinds are right associative, so the kind ``*->*->*`` is the same as ``*->(*->*)``
 
@@ -38,17 +38,17 @@ Note that partial application of type constructors have limitations. For example
 
 Programs are typically composed of **expressions** of values, constants, variables, operators, and functions. Analogously, we can have **type expressions** which live at the type level. First we will define type expressions in terms of type variables, type constructors, and type applications:
 
-{% gist 6d37ca6b66831a8d9d7831b560d5b4a0 %}
+{% gist 6267ef856f6fa99fd539500698808205 %}
 
 The definition above also includes the type ``Scheme``, which represents a type with a forall quantifier. Schemes are used when defining parametric polymorphic functions. Note that the constraint solver does not deal with ``Scheme`` in any way. When we want to solve a constraint that involves a polymorphic function, we will first have to *instantiate* a scheme by substituting the quantified variables with *fresh type variables*. This will be discussed in more detail later.
 
 We will now define some functions which will be helpful for creating specific types:
 
-{% gist 8b9f7bebf8a5f0f0e374f09131ec7e6b %}
+{% gist 13a47a5db77e4ac06fac6fdb78e57798 %}
 
 Defining some string conversion functions will be useful for debugging. These functions may introduce extraneous parenthesis, but they will get the job done for our purposes:
 
-{% gist bd1eb6645db4fe5f9ad779873424acd6 %}
+{% gist 374ef0488a2ca8d2d4e325a043af560e %}
 
 Although the constraint solver will not deal with type schemes directly, it is useful to define some functions that work with them.
 * ``tysubst`` is a very important function. It is used both by the constraint solver and the type scheme functions. ``tysubst`` takes in ``theta``, which maps type variables to type expressions. Every type variable in the domain of ``theta`` is replaced with a corresponding type expression. Type variables that are not present in the domain of ``theta`` remain untouched.
@@ -57,7 +57,7 @@ Although the constraint solver will not deal with type schemes directly, it is u
 * ``freevars`` will tell us what type variables exist within a certain type expression
 * ``generalize`` does the opposite of ``instantiate`` by looking for free type variables in the type expression and then making them universally quantified. The ``skipTyVar`` parameter tells ``generalize`` which type variables it should ignore. This function is used when generalizing let bindings.
 
-{% gist b3a7bd676667482ccab9b724c8faaef4 %}
+{% gist 23a4cde754d185e4e611960fd0e64c16 %}
 
 ## Constraints
 
@@ -68,7 +68,7 @@ We are now ready to define the types which will represent the constraints. The c
 
 ``conjoinConstraints`` is a helper function which joins a list of constraints together by using the ``And`` value constructor.
 
-{% gist f94131812b1dcd37e83090b13cdbfc5e %}
+{% gist 0cda659b8ba3382a2ed531bf02ca1590 %}
 
 ## Solver
 
@@ -87,15 +87,15 @@ Now for the big finale! Given a system of constraints, we want to get a ``Map<Ty
     * In the case where the two sides are type applications, then we make a *new* system of constraints by demanding that the left side of the type applications must be equal, and the right hand sides of the type applications must be equal. We then solve the new system of constraints via a recursive call.
     * In all other cases, the system is unsolvable, so we raise a ``TypeError``.
 
-{% gist 87b9f7232b07f474da8e777e8ed3a283 %}
+{% gist 2717af2fe5be22cac686a0269674598c %}
 
 Now we can test our solver by writing some test cases:
 
-{% gist 7bf20f9112dd0b27ad187a0f43350bd1 %}
+{% gist 835ce9d75297a05e6285bfa78ead4cbc %}
 
 On lines 1-3, we can see the result of the first call to solve. The constraint we were trying to solve was ``(t1, Number) ~ (Unit, t2)``, and the output was the ``Map`` ``{t1 → Unit, t2 → Number}``, as expected. The second constraint was ``Unit ~ Number``, which wasn't solvable. The solver correctly raised a ``TypeError`` which notified us of the mistake in addition to showing the error message attached to the constraint.
 
-{% gist c08ed85c27c196659185a441ab3af968 %}
+{% gist b81d43be96238e99357fb1b91daf320f %}
 
 ## Wrapping Up
 
@@ -103,7 +103,7 @@ Generating constraints is usually a straightforward process, and can be accompli
 
 The constraint solver presented here is based on Norman Ramsey's book *Programming Languages: Build, Prove, and Compare*. The book is still unpublished at the time of this post's publication.
 
-The code for the full constraint solver is available here under the Unlicense license (which places the code presented here in the public domain): https://gist.github.com/calebh/05300bad85b9a1ab1d4e1cb7e2f0383c
+The code in this blog post is placed under the Unlicense license (which places the code presented here in the public domain).
 
 ## Related Links
 
