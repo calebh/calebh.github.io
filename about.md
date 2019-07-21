@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Researcher at MIT Lincoln Laboratory. Primary interests are programming language theory and game development.
+Software developer living in Minnesota.
+
 
 ### Current Projects
 
@@ -16,10 +17,15 @@ Researcher at MIT Lincoln Laboratory. Primary interests are programming language
 
 Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programming language for the Arduino." *Proceedings of the 4th International Workshop on Functional Art, Music, Modelling, and Design.* ACM, 2016.
 
+### Global Game Jam Projects
+
+[Cell Tower Tycoon - 2018](https://globalgamejam.org/2018/games/cell-tower-tycoon)
+[Wave Rider - 2017](https://globalgamejam.org/2017/games/wave-rider-3)
+
 ### Resume
 
 [View my resume as a PDF on GitHub](https://github.com/calebh/calebh.github.io/blob/master/resume.pdf)
 
 ### Contact me
 
-[caleb.helbling@gmail.com](mailto:caleb.helbling@gmail.com)
+caleb.helbling AT yahoo.com
