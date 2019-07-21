@@ -11,7 +11,7 @@ One more thing to clear up - **monads are used for more things than error handli
 
 In most mainstream languages, the arguments to a function are given in a comma separated list while enclosed with parenthesis. In Haskell, function arguments are given in a space separated list. This syntax difference is not just for asthetics - it has a purpose. When you define a new function in Haskell, the function can automatically be partially applied (the technical term is [currying](https://en.wikipedia.org/wiki/Currying)). Let's take a look at an example:
 
-{% gist c40f2c1e73cf1743fca14e221e02a5ee %}
+{% gist c66ec8dbfb25149c16ba72eeee1050d4 %}
 
 Here I have defined a new Haskell function called ``myconcat``, which takes two lists as arguments. When I want to invoke the ``myconcat`` function, I can pass it a single parameter and get a new function as a result. Since strings in Haskell are just lists of characters, I can partially apply it with the "Hello " string to get a new function that will prepend ``"Hello "`` to the front of a character list.
 
@@ -55,9 +55,9 @@ Here is a table of some types in Haskell with their kinds:
 
 Type classes are a feature of Haskell that allow you to overload functions. Each type class declaration is parameterized by one or more arguments. The arguments are types - they determine which type you are overloading. Let's take a look at an example:
 
-{% gist 882c702a92b0192d7e9a0f5a557959ed %}
+{% gist 32f03f84a1d1ce6a4ba7c2b6892ddaaf %}
 
-{% gist 2d0c2a26a73980e775eb6ed9cd4ccd80 %}
+{% gist 50616b9bcc43e98f1d7e92c15d2de08f %}
 
 In the example above I have defined the ``Mappable`` (aka [Functor](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Functor.html)) typeclass, which contains a single function that we can overload. The ``map`` function should take in elements in the container and apply the mapping function to them. For example, we could overload the ``map`` function so that it can handle both trees and lists. Notice that the ``m`` parameter in the typeclass definition has kind ``* -> *`` (ie, it is a type constructor for a container type that consumes a single type argument).
 
@@ -65,15 +65,15 @@ In the example above I have defined the ``Mappable`` (aka [Functor](http://hacka
 
 Now we are ready to look at the type class definition for monad:
 
-{% gist 6626ab34cdfb61378f2bc78a526b84e0 %}
+{% gist aa8a409cd6bed38be52d3d8d1fa4de02 %}
 
-{% gist 8a7458b66458b318416f7c2f5974fc92 %}
+{% gist a7ef1f4708312989d3d2db7f11937c34 %}
 
 On the first line, we give the name of the type class: ``Monad``. This type class will be parameterized by a parameter named ``m``. Based on how m is used in the function signatures, we deduce that ``m`` must have kind ``* -> *``. This means that when we define an instance of the ``Monad`` type class, we tell what ``m`` should be. And ``m`` can be anything, as long as it has the kind ``* -> *``! In fact if we look at the table above, we can see that ``Maybe`` and the ``[]`` (list) type constructors have the required kind. If you've read any monad tutorials, these are often used as simple examples of monad instances. Here's an example of instances of the ``Monad`` type class for ``Maybe`` and ``List``. Note that the equivalent for ``Maybe`` in C# is ``Nullable``, so I've used that for the C#-like syntax example.
 
-{% gist 0c882099ba72afd8cf9068ec82c42111 %}
+{% gist ee74df3975de82212cde5662924a097a %}
 
-{% gist bd70279b3bd2a691018443fa50930227 %}
+{% gist e17b9051ff7920dde8ff481a156ad2fb %}
 
 I will not dwell on the specific instance implementations here since it's mostly irrelevant for understanding what a monad *is*. However the specific instances are good for illustrating the *motivation* of why you would want to use a monad in the first place. The Learn You a Haskell book covers these instances in more detail here: http://learnyouahaskell.com/a-fistful-of-monads
 
@@ -87,13 +87,13 @@ Why even bother with the ``Monad`` type class at all? It turns out that programm
 
 The ``do`` notation in Haskell is used for chaining invocations of ``>>=`` together. When a binding operation (written with a left arrow ``<-``) is used in a ``do`` block, the callback is automatically generated, and the return value of a second, nested ``>>=`` operation is used as the return value of this new callback. The easiest way to see this in action is by looking at a ``do`` block and the equivalent de-sugared code:
 
-{% gist 7bc2280c6ce123cae73625c67504c9c9 %}
+{% gist ac9734fc782b777326a9e7487672ca4d %}
 
 Notice that ``expr2`` has access to ``x1`` due to the scoping of the lambdas, and the return value of the nested ``>>=`` call is used as the return value of the callback.
 
 Another way that these ``Monad`` functions can be sequenced is by using the ``>>`` operation. To syntax de-sugaring in this case is a little bit simpler:
 
-{% gist 363496e04a1e68d53e9d83295f0a87af %}
+{% gist cb474333633817527750ba8b629557a8 %}
 
 For more details on how this syntax sugar works, see this helpful guide: https://en.wikibooks.org/wiki/Haskell/do_notation
 
