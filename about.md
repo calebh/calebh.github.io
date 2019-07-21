@@ -20,6 +20,7 @@ Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programmin
 ### Global Game Jam Projects
 
 [Cell Tower Tycoon - 2018](https://globalgamejam.org/2018/games/cell-tower-tycoon)
+
 [Wave Rider - 2017](https://globalgamejam.org/2017/games/wave-rider-3)
 
 ### Resume
