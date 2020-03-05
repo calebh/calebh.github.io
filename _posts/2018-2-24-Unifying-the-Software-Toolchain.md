@@ -93,4 +93,4 @@ Here are some related interesting miscellaneous links:
 
 ## Moving Forward
 
-A lot of work needs to be completed to realize the fully proposed system. If you're interested in the project, feel free to post on the comments below. If you represent a company that is interested in working on this type of system, feel free to send an email to <caleb.helbling@gmail.com>. I think that any company that creates such a system will have a big advantage in future developer mindshare.
+A lot of work needs to be completed to realize the fully proposed system. If you're interested in the project, feel free to post on the comments below. If you represent a company that is interested in working on this type of system, feel free to send an email to <caleb.helbling@yahoo.com>. I think that any company that creates such a system will have a big advantage in future developer mindshare.
