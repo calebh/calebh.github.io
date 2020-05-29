@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /
+permalink: /index.html
 ---
 
 Software developer living in Madison, WI.
