@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Software developer living in Minnesota.
+Software developer living in Madison, WI.
 
 
 ### Current Projects
@@ -16,6 +16,9 @@ Software developer living in Minnesota.
 ### Publications
 
 Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programming language for the Arduino." *Proceedings of the 4th International Workshop on Functional Art, Music, Modelling, and Design.* ACM, 2016.
+
+Helbling, Caleb. "Directed Graph Hashing." *51st Southeastern International Conference on
+ Combinatorics, Graph Theory & Computing.* 2020.
 
 ### Global Game Jam Projects
 
@@ -29,4 +32,4 @@ Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programmin
 
 ### Contact me
 
-caleb.helbling AT yahoo.com
+caleb AT helbli.ng
