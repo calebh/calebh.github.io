@@ -29,7 +29,7 @@ caleb AT helbli.ng
 
 ### Current Projects
 
-Primitive Fitting 3D Meshes by Minimizing Volumetric Loss - computational geometry research paper
+Helbling, Caleb, and Corvinus, Joshua. "Primitive Fitting 3D Meshes by Minimizing Volumetric Loss." *To be submitted to Computer Graphics Forum.* 2020.
 
 [Juniper - Functional Reactive Programming for the Arduino](http://www.juniper-lang.org/)
 
