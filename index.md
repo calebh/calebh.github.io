@@ -8,6 +8,8 @@ Software developer/researcher living in Madison, WI. I am currently employed as 
 
 In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
 
+**Areas of Expertise**: Programming Language Theory, Computer Graphics, Embedded Systems Programming, Concurrent Systems, Graph Theory, Computational Geometry, Simulation and Game Development, Front End Web Development, Mathematics
+
 ### Publications
 
 Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programming language for the Arduino." *Proceedings of the 4th International Workshop on Functional Art, Music, Modelling, and Design.* ACM, 2016. [View pre-print on arXiv](https://arxiv.org/abs/1911.12932)
