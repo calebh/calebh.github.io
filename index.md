@@ -10,10 +10,10 @@ In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. 
 
 ### Publications
 
-Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programming language for the Arduino." *Proceedings of the 4th International Workshop on Functional Art, Music, Modelling, and Design.* ACM, 2016.
+Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programming language for the Arduino." *Proceedings of the 4th International Workshop on Functional Art, Music, Modelling, and Design.* ACM, 2016. [View pre-print on arXiv](https://arxiv.org/abs/1911.12932)
 
 Helbling, Caleb. "Directed Graph Hashing." *51st Southeastern International Conference on
- Combinatorics, Graph Theory & Computing.* 2020.
+ Combinatorics, Graph Theory & Computing.* 2020. [View pre-print on arXiv](https://arxiv.org/abs/2002.06653)
 
 ### Resume
 
