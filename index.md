@@ -23,9 +23,7 @@ Helbling, Caleb. "Directed Graph Hashing." *51st Southeastern International Conf
 
 ### Contact me
 
-There has been some confusion since I have changed email addresses. The correct email address as of 5/29/2020 is:
-
-caleb AT helbli.ng
+caleb.helbling AT yahoo.com
 
 ### Current Projects
 
