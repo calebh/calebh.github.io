@@ -4,7 +4,7 @@ title: About
 permalink: /index.html
 ---
 
-Software developer/researcher living in Madison, WI. I am currently employed as a software developer at [Holos, Inc](https://holos.io/). My primary interests are in programming languages, computer graphics and machine learning. I am especially interested in the intersection of machine learning and programming languages. In recent years deep neural networks have been applied to natural language tasks with great success, but applying these same techniques to code is still in its infancy. I believe there is room for a lot of new exciting work in this subfield of machine learning/programming languages.
+Software developer/researcher living in Madison, WI. I am currently employed as a software developer at [Holos, Inc](https://holos.io/). My primary interests are in programming languages, computer graphics and machine learning.
 
 In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
 
@@ -27,7 +27,7 @@ caleb.helbling AT yahoo.com
 
 ### Current Projects
 
-Helbling, Caleb, and Corvinus, Joshua. "Primitive Fitting 3D Meshes by Minimizing Volumetric Loss." *To be submitted to Computer Graphics Forum.* 2020.
+Helbling, Caleb, and Corvinus, Joshua. "Primitive Fitting 3D Meshes by Minimizing Volumetric Loss." *Unpublished at this time.* 2020.
 
 [Juniper - Functional Reactive Programming for the Arduino](http://www.juniper-lang.org/)
 
