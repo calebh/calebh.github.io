@@ -8,6 +8,8 @@ Software developer/researcher living in Madison, WI. I am currently employed as 
 
 In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
 
+I will be starting as a PhD student at Purdue University this fall (2021), where I will be doing research with [Roopsha Samanta](https://www.cs.purdue.edu/homes/roopsha/).
+
 **Areas of Expertise**: Programming Language Theory, Computer Graphics, Embedded Systems Programming, Concurrent Systems, Graph Theory, Computational Geometry, Simulation and Game Development, Front End Web Development, Mathematics
 
 ### Publications
