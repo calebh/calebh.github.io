@@ -29,6 +29,10 @@ Microsoft Windows Vulnerability - issue reviewed by Microsoft, exploit confirmed
 
 ### Contact me
 
+University Email:
+caleb AT purdue.edu
+
+Private Email:
 caleb.helbling AT yahoo.com
 
 ### Current Projects
