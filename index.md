@@ -19,6 +19,8 @@ Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programmin
 Helbling, Caleb. "Directed Graph Hashing." *51st Southeastern International Conference on
  Combinatorics, Graph Theory & Computing.* 2020. [View pre-print on arXiv](https://arxiv.org/abs/2002.06653)
 
+Helbling, Caleb, and Fırat Aksoy. "Solving the Funarg Problem with Static Types." *Submitted to 33rd Symposium on Implementation and Application of Functional Languages.* ACM, 2021. [View pre-print on arXiv](https://arxiv.org/abs/2108.07389)
+
 ### Bug Bounties
 
 Microsoft Windows Vulnerability - issue reviewed by Microsoft, exploit confirmed and bug bounty awarded. Awaiting fix from Microsoft before disclosure.
