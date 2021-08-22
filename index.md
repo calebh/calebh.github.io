@@ -4,11 +4,11 @@ title: About
 permalink: /index.html
 ---
 
-Software developer/researcher living in Madison, WI. I was most recently employed as a software developer at [Holos, Inc](https://holos.io/). My primary interests are in programming languages, computer graphics and machine learning.
+Computer science researcher living in Lafayette, IN. I am currently a PhD student at Purdue University, where I do research with [Roopsha Samanta](https://www.cs.purdue.edu/homes/roopsha/).
+
+I was most recently employed as a software developer at [Holos, Inc](https://holos.io/). My primary interests are in programming languages, computer graphics and machine learning.
 
 In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
-
-I will be starting as a PhD student at Purdue University this fall (2021), where I will be doing research with [Roopsha Samanta](https://www.cs.purdue.edu/homes/roopsha/).
 
 **Areas of Expertise**: Programming Language Theory, Computer Graphics, Embedded Systems Programming, Concurrent Systems, Graph Theory, Computational Geometry, Simulation and Game Development, Mathematics
 
@@ -19,7 +19,7 @@ Helbling, Caleb, and Samuel Z. Guyer. "Juniper: a functional reactive programmin
 Helbling, Caleb. "Directed Graph Hashing." *51st Southeastern International Conference on
  Combinatorics, Graph Theory & Computing.* 2020. [View pre-print on arXiv](https://arxiv.org/abs/2002.06653)
 
-Helbling, Caleb, and Fırat Aksoy. "Solving the Funarg Problem with Static Types." *Submitted to 33rd Symposium on Implementation and Application of Functional Languages.* ACM, 2021. [View pre-print on arXiv](https://arxiv.org/abs/2108.07389)
+Helbling, Caleb, and Fırat Aksoy. "Solving the Funarg Problem with Static Types." *33rd Symposium on Implementation and Application of Functional Languages.* ACM, 2021. [View pre-print on arXiv](https://arxiv.org/abs/2108.07389)
 
 ### Bug Bounties
 
