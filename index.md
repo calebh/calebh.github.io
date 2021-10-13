@@ -23,7 +23,7 @@ Helbling, Caleb, and Fırat Aksoy. "Solving the Funarg Problem with Static Types
 
 ### Bug Bounties
 
-Microsoft Windows Vulnerability - issue reviewed by Microsoft, exploit confirmed and bug bounty awarded. Awaiting fix from Microsoft before disclosure.
+[https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40464](CVE-2021-40464) - Windows Nearby Sharing Elevation of Privilege Vulnerability - reported to Microsoft and bug bounty received
 
 ### Resume
 
