@@ -4,7 +4,7 @@ title: About
 permalink: /index.html
 ---
 
-Computer science researcher living in Lafayette, IN. I am currently a PhD student at Purdue University, where I do research with [Roopsha Samanta](https://www.cs.purdue.edu/homes/roopsha/).
+Computer science researcher living in Lafayette, IN. I am currently a PhD student at Purdue University, where I do research with [Tianyi Zhang](https://tianyi-zhang.github.io/).
 
 I was most recently employed as a software developer at [Holos, Inc](https://holos.io/). My primary interests are in programming languages, computer graphics and machine learning.
 
