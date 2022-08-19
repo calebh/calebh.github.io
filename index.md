@@ -4,13 +4,13 @@ title: About
 permalink: /index.html
 ---
 
-Computer science researcher living in Lafayette, IN. I am currently a PhD student at Purdue University, where I do research with [Tianyi Zhang](https://tianyi-zhang.github.io/).
+Computer science student living in Lafayette, IN. I am currently in the PhD program at Purdue University but am planning on leaving early with a master's degree. Looking for a full time position after I graduate in May 2023.
 
 I was most recently employed as a software developer at [Holos, Inc](https://holos.io/). My primary interests are in programming languages, computer graphics and machine learning.
 
 In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
 
-**Areas of Expertise**: Programming Language Theory, Computer Graphics, Embedded Systems Programming, Concurrent Systems, Graph Theory, Computational Geometry, Simulation and Game Development, Mathematics
+**Areas of Expertise**: Programming Languages, Computer Networking, Computer Graphics, Embedded Systems Programming, Machine Learning, Concurrent Systems, Simulation and Game Development, and Mathematics
 
 ### Publications
 
