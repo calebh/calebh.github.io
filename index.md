@@ -4,9 +4,7 @@ title: About
 permalink: /index.html
 ---
 
-Computer scientist living in Lafayette, IN. I just graduated with my Master's degree from Purdue University and will be joining Draper Laboratory shortly in the formal methods group.
-
-I was most recently employed as a software developer at [Holos, Inc](https://holos.io/). My primary interests are in programming languages, computer graphics and machine learning.
+Computer scientist living in Cambridge, MA. I just graduated with my Master's degree from Purdue University and will be joining Draper Laboratory as a Senior Member of the Technical Staff in the formal methods group.
 
 In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
 
