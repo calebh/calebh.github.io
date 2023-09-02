@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Written Proof of Work Demo</title>
+  </head>
+  <body>
+    <h1>1. Write Some Text</h1>
+    <p style="color:red;">
+      Note: At the present moment this demo requires you to disable 
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">browser CORS</a>. This is because publicly 
+      available timestamp authority servers do not allow cross origin requests. In a full working implementation, 
+      this would not be the case.
+    </p>
+    <p>
+      Enter text into the editor below. All keystrokes are recorded and added to the history. 
+      Every 20 seconds the editor will submit all recent edits to the 
+      <a href="https://www.sectigo.com/resource-library/time-stamping-server">Sectigo Timestamp Authority Server</a>. 
+      Note that Sectigo only receives the hash (a fingerprint) of your edits, not the full edit contents.
+    </p>
+    <div id="editor-container"></div>
+    <h1>2. Export the History</h1>
+    <p>
+      When you are done with your edits, click the button below to export your timestamped history to a file. 
+      At this point your document is ready to be validated, possibly by an external validation service.
+    </p>
+    <button type="button" id ="export-history-button">Export History</button>
+    <p>
+      If you do not want to disable CORS restrictions, but still want to proceed you can download the following 
+      demo document to use in the next step: <a href="demo-tale-of-two-cities.json">demo-tale-of-two-cities.json</a>
+    </p>
+    <h1>3. Validate the History</h1>
+    <p>
+      At this point you take the history exported from the previous step and send it to a validation service. 
+      This service would first verify the cryptographic integrity of the timestamps in the history. The next 
+      step would be to then classify your history as human via a heuristic analysis of all of your 
+      timestamped keystrokes. If your history is classified as human,
+      the validation service would export your document to a signed PDF containing only the final text. 
+      You then take the PDF and distribute to whoever you want. Receivers of your document can check the 
+      PDF signature to verify that your text was written by a human. The PDF does not contain the text history.
+    </p>
+    <p style="color:red;">
+      At the present moment this demo does not include a human/robot classifier. The only thing we do is verify 
+      the cryptographic integrity and temporal monoticity of the edit history.
+    </p>
+    <input type="file" id="verify-file-chooser">
+    <script src="bundle.js"></script>
+  </body>
+</html>

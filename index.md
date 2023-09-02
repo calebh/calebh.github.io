@@ -4,13 +4,13 @@ title: About
 permalink: /index.html
 ---
 
-Computer scientist living in Cambridge, MA. I just graduated with my Master's degree from Purdue University and have joined Draper Laboratory as a Senior Member of the Technical Staff in the formal methods group.
+Computer scientist living in Cambridge, MA. I just graduated with my Master's degree from Purdue University and have joined Draper Laboratory as a Senior Member of the Technical Staff in the formal methods group. I am currently working under the [DARPA Assured Micropatching (AMP) Project](https://www.darpa.mil/program/assured-micropatching).
 
-I was a software engineer at Holos, a VR startup based in Madison, WI. I was brought on as to take Holos' single player VR experience and make it work across the network. I achieved this, and also prototyped additional interaction features, such as a VR based file browser, and standard desktop interaction from within VR. Holos' software is used for training purposes, and was developed under a contract from the US Air Force to train F-35 fighter jet mechanics.
+From 2019-2022 I was a software engineer at Holos, a VR startup based in Madison, WI. I was brought on to take Holos' single player VR experience and make it work across networked connections. Holos' software is used for training purposes, and was developed under a contract from the US Air Force to train F-35 fighter jet mechanics.
 
 In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
 
-**Areas of Expertise**: Programming Languages, Computer Networking, Computer Graphics, Embedded Systems Programming, Machine Learning, Concurrent Systems, Simulation and Game Development, and Mathematics
+**Areas of Expertise**: Programming Languages, Computer Networking, Software Security, Computer Graphics, Embedded Systems Programming, Machine Learning, Concurrent Systems, Simulation and Game Development, and Mathematics
 
 ### Publications
 
@@ -26,7 +26,7 @@ Helbling, Caleb, and Fırat Aksoy. "Solving the Funarg Problem with Static Types
 
 ### Resume
 
-[View my resume as a PDF on GitHub](https://github.com/calebh/calebh.github.io/blob/master/resume.pdf)
+[View my resume as a PDF](resume.pdf)
 
 ### Contact me
 
