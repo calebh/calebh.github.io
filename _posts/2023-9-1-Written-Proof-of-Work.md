@@ -18,7 +18,7 @@ For those who don’t or cannot use Google Docs, it would be nice if there was a
 3. If the classification server classifies the edit history as likely human, it exports the final text to a PDF and signs it with their key, verifying this document as human written.
 4. Readers can verify that a document is human written by checking the signed PDF. If they trust the owner of the classification server, then they can trust that the document is human written. The readers of the final document never need to see the edit history.
 
-[I went ahead and implemented this basic protocol (which I am calling Written Proof of Work) using the Quill editor and submission to the Sectigo Timestamp Authority Server](written-proof-of-work/index.html). The primary benefit of this scheme over the Google Doc’s history is that remote authentication servers can be entirely stateless - there is no need to actually store the edit history on the remote server. The timestamp authority only ever sees the edit history hashes, and the verification server can throw away the edit history as soon as the verification process is complete.
+[I went ahead and implemented this basic protocol (which I am calling Written Proof of Work) using the Quill editor and submission to the Sectigo Timestamp Authority Server](/written-proof-of-work/index.html). The primary benefit of this scheme over the Google Doc’s history is that remote authentication servers can be entirely stateless - there is no need to actually store the edit history on the remote server. The timestamp authority only ever sees the edit history hashes, and the verification server can throw away the edit history as soon as the verification process is complete.
 
 I will admit that this scheme is likely to be less useful in the immediate future than Google Doc’s revision history. Implementing this scheme would require cooperation from multiple parties, primarily the corporations which own the document editors (Google and Microsoft). What this scheme does guarantee is rate limiting written text. A person writing a document with the help of a large language model will not be able to produce it any faster than a human writing a document.
 
@@ -26,4 +26,4 @@ I will admit that this scheme is likely to be less useful in the immediate futur
 
 An example implementation of Written Proof of Work is available here: [https://github.com/calebh/written-proof-of-work](https://github.com/calebh/written-proof-of-work)
 
-[A demo of this application is available here](written-proof-of-work/index.html).
+[A demo of this application is available here](/written-proof-of-work/index.html).
