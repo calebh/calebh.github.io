@@ -25,6 +25,6 @@ Another way to look at the situation is that intersection types and union types 
 
 ## Further reading:
 
-- [A calculus with polymorphic and polyvariant flow types. Wells et al. 2022.](https://dl.acm.org/doi/10.1017/S0956796801004245)
+- [A calculus with polymorphic and polyvariant flow types. Wells et al. 2002.](https://dl.acm.org/doi/10.1017/S0956796801004245)
 - [Faithful translations between polyvariant flows and polymorphic types. Amtoft and Turbak. 2000.](https://link.springer.com/chapter/10.1007/3-540-46425-5_2)
 - [Tracking Data-Flow with Open Closure Types. Scherer and Hoffmann. 2013.](https://link.springer.com/chapter/10.1007/978-3-642-45221-5_47)
