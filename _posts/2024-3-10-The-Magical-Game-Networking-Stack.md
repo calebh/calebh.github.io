@@ -1,0 +1,16 @@
+---
+layout: post
+title: The Magical Game Networking Stack
+---
+
+My first commercially successful foray into the world of computer programming came with my contributions to a project called pyspades, an open source server for the game Ace of Spades. For those who are not familiar, Ace of Spades came out shortly after Minecraft made it big, and unlike Minecraft which was focused on sandbox exploration, Ace of Spades was a free multiplayer voxel (blocky) first person shooter. The game was fairly successful, and was acquired by Jagex Game Studios (famous for making Runescape), who took the game and released it on Steam. More on this in a future blog.
+
+At my previous job at Holos, I led the development of the networking systems used in Holos’ VR training experiences. I worked a lot with the Mirror networking library, which at the time was one of the few viable networking implementations available for the Unity game engine. The big advantage I saw in Mirror was the ability to integrate the server and the client into the same project, unlike the extra complexity introduced by a separate server like in Ace of Spades. Mirror also heavily utilizes remote procedure calls, from the client to the server, which can then in turn rebroadcast to the other clients. Serialization and deserialization of the data structures is mostly automatic, which removes a lot of headache.
+
+![_config.yml]({{ site.baseurl }}/images/split-screen.jpg)
+
+One thing I’ve wanted for a while is an even more complete abstraction for networking in videogames. My logic goes like this: making a local multiplayer game is considerably simpler than a truly multi-machine networked game. By local multiplayer, I mean something like a split screen game you might see on game consoles, such as split-screen local multiplayer Mario Kart. Indeed, multiplayer games are typically so complex that they were discouraged in the Indie Game circles I used to frequent. Wouldn’t it be nice if truly networked games were somehow as easy to write as local multiplayer games?
+
+With the advent of cloud gaming systems such as Google Stadia (now dead, RIP) or XBox Cloud Gaming, creating this experience would have been quite possible, almost to the point of triviality. Multiple people would connect to the same remote server, and their inputs would be sent over the Internet. The server would render the frames for every connected player and send them back. Boom, networked multiplayer without the headache of RPCs and synchronization. It’s a shame that cloud developers never realized this huge development incentive, since it could drastically cut development time for small multiplayer games.
+
+Since cloud gaming seems to have not taken off, the question becomes - can we achieve the ease of local multiplayer, even when having multiple machines running the same simulation. When I was working with Mirror there was still a ton of labor involved, which could be eliminated with tighter integration between the language, engine, and networking stack. Perhaps the local multiplayer experience could be achieved with either conflict-free replicated data types or some type of lockstep simulation.
