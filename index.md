@@ -38,6 +38,8 @@ Helbling, Caleb, and Fırat Aksoy. "Solving the Funarg Problem with Static Types
 
 [dihash - Python library for hashing directed graphs](https://pypi.org/project/dihash/)
 
+[cozy - Comparative Symbolic Evaluation (DARPA AMP)](https://github.com/draperlaboratory/cozy)
+
 ### Past Projects
 
 [Blockspell - a multiplayer magical combat game set in a voxel environment](http://www.blockspell.com/). Development has been more or less permanently suspended due to high development costs.
