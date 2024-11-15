@@ -44,7 +44,7 @@ Brickstrike - a multiplayer voxel FPS game. This game is meant to be a spiritual
 
 ### Past Activities
 
-[cozy - Comparative Symbolic Evaluation (DARPA AMP)](https://github.com/draperlaboratory/cozy)
+[cozy - Comparative Symbolic Execution (DARPA AMP)](https://github.com/draperlaboratory/cozy)
 
 [Blockspell - a multiplayer magical combat game set in a voxel environment](http://www.blockspell.com/). Development has been permanently suspended due to changing priorities
 
