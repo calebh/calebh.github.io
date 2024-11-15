@@ -4,11 +4,11 @@ title: About
 permalink: /index.html
 ---
 
-Computer scientist living in Cambridge, MA. I hold a MS in Computer Science from Purdue University and a BS in Computer Science from Tufts University. I currently am a Senior Member of the Technical Staff at Draper Laboratory, primarily focused on binary software analysis. At this role I was a key innovator for Draper's contribution to the [DARPA Assured Micropatching (AMP) Project](https://www.darpa.mil/program/assured-micropatching). I am now working on a new project in software analysis for one of Draper's customers.
+Computer scientist living in Cambridge, MA. I hold a MS in Computer Science from Purdue University and a BS in Computer Science from Tufts University. I currently am a Senior Member of the Technical Staff at [Draper Laboratory](https://www.draper.com/), primarily focused on binary software analysis. At this role I was a key innovator for Draper's contribution to the [DARPA Assured Micropatching (AMP) Project](https://www.darpa.mil/program/assured-micropatching). I am now working on a new project in software analysis for one of Draper's customers.
 
-From 2019-2022 I was a software engineer at Holos, a VR startup based in Madison, WI. I was brought on to take Holos' single player VR experience and make it work across networked connections. Holos' software is used for training purposes, and was developed under a contract from the US Air Force to train F-35 fighter jet mechanics.
+From 2019-2022 I was a software engineer at [Holos](https://holos.io/), a VR startup based in Madison, WI. I was brought on to take Holos' single player VR experience and make it work across networked connections. Holos' software is used for training purposes, and was developed under a contract from the US Air Force to train F-35 fighter jet mechanics.
 
-In the past I was at MIT Lincoln Laboratory in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
+In the past I was at [MIT Lincoln Laboratory](https://www.ll.mit.edu/) in the position of Assistant Staff. While there I primarily focused on embedded systems development, computer networking and graph theory research. I left this position in early 2019.
 
 **Areas of Expertise**: Programming Languages, Computer Networking, Software Security, Computer Graphics, Embedded Systems Programming, Machine Learning, Concurrent Systems, Simulation and Game Development, and Mathematics
 
