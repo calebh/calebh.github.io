@@ -52,6 +52,8 @@ Ace of Spades, pyspades server developer. Game acquired by [Jagex Game Studios](
 
 ### Global Game Jam Projects
 
+[Duck and Gun - 2025](https://globalgamejam.org/games/2025/duck-and-run-8)
+
 [Addicted to Laughter - 2024](https://globalgamejam.org/games/2024/addicted-laughter-1)
 
 [Cell Tower Tycoon - 2018](https://globalgamejam.org/2018/games/cell-tower-tycoon)
