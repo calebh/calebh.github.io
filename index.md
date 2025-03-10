@@ -20,6 +20,9 @@ Helbling, Caleb. "Directed Graph Hashing." *51st Southeastern International Conf
 
 Helbling, Caleb, and Fırat Aksoy. "Solving the Funarg Problem with Static Types." *33rd Symposium on Implementation and Application of Functional Languages.* ACM, 2021. [View pre-print on arXiv](https://arxiv.org/abs/2108.07389)
 
+Helbling, Caleb, Graham Leach-Krouse, Sam Lasser, and Greg Sullivan. "cozy: Comparative Symbolic Execution for Binary Programs." *Workshop on Binary Analysis Research (BAR) 2025.* 2025. 🔴 **Winner of the BAR 2025 Distinguished Paper Award.**
+
+
 ### Bug Bounties
 
 [CVE-2021-40464](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40464) - Windows Nearby Sharing Elevation of Privilege Vulnerability - reported to Microsoft and bug bounty received
