@@ -20,7 +20,7 @@ Helbling, Caleb. "Directed Graph Hashing." *51st Southeastern International Conf
 
 Helbling, Caleb, and Fırat Aksoy. "Solving the Funarg Problem with Static Types." *33rd Symposium on Implementation and Application of Functional Languages.* ACM, 2021. [View pre-print on arXiv](https://arxiv.org/abs/2108.07389)
 
-Helbling, Caleb, Graham Leach-Krouse, Sam Lasser, and Greg Sullivan. "cozy: Comparative Symbolic Execution for Binary Programs." *Workshop on Binary Analysis Research (BAR) 2025.* 2025. 🔴 **Winner of the BAR 2025 Distinguished Paper Award.**
+Helbling, Caleb, Graham Leach-Krouse, Sam Lasser, and Greg Sullivan. "cozy: Comparative Symbolic Execution for Binary Programs." *Workshop on Binary Analysis Research (BAR).* 2025. 🔴 **Winner of the BAR 2025 Distinguished Paper Award.** [View pre-print on arXiv](https://arxiv.org/abs/2504.00151)
 
 
 ### Bug Bounties
@@ -43,7 +43,7 @@ Helbling, Caleb, Graham Leach-Krouse, Sam Lasser, and Greg Sullivan. "cozy: Comp
 
 [Unicycle Boston - I am the co-organizer of Boston's only unicycle club!](https://unicycle.boston/)
 
-Brickstrike - a multiplayer voxel FPS game. This game is meant to be a spiritual successor to Ace of Spades, which I worked on back around 2011 - 2012.
+[Brickstrike - a multiplayer voxel FPS game. This game is meant to be a spiritual successor to Ace of Spades, which I worked on back around 2011 - 2012.](https://www.brickstrike.com/)
 
 ### Past Activities
 
