@@ -62,3 +62,10 @@ Ace of Spades, pyspades server developer. Game acquired by [Jagex Game Studios](
 [Cell Tower Tycoon - 2018](https://globalgamejam.org/2018/games/cell-tower-tycoon)
 
 [Wave Rider - 2017](https://globalgamejam.org/2017/games/wave-rider-3)
+
+### Fun Links
+
+- [Wikipedia Current Events Portal](https://en.wikipedia.org/wiki/Portal:Current_events). My goto site for mostly unbiased coverage of current world news. I often find things here that aren't being covered in mainstream American media. One of the true gems of the Internet.
+- [Georgism](https://en.wikipedia.org/wiki/Georgism). An interesting economic alternative to both the current American capitalism system and socialism/communism. [Has features that are desirable to both liberals and libertarians](https://www.youtube.com/watch?v=smi_iIoKybg).
+- If you have never seen a unicycle freestyle performance, I recommend checking it out! Freestyle unicycle performances are very similar to figure skating routines, where the performers do tricks in sync with music. The Japanese team is excellent, I recommend their videos: [Video 1](https://www.youtube.com/watch?v=smi_iIoKybg), [Video 2](https://www.youtube.com/watch?v=xp5mDJMxLMQ).
+- [Interaction Nets](https://en.wikipedia.org/wiki/Interaction_nets) are an evaluation strategy that allows for easy parallel computation of lambda calculus. It is a confluent graph rewrite system where any particular reduction path is beta-optimal. The logic for each worker thread is quite simple since it is easy to discover redexes by looking for active pairs of nodes.
