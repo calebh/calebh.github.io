@@ -29,4 +29,4 @@ The other thing I'd like to come up with is a polynomial time canonization algor
 
 If you have come across this notion of a graph language before, let me know. I've been unable to find this particular variation in any research papers. It's very similar to DFAs/NFAs, so I was a bit suprised to not find anything.
 
-The work in progress proofs and implementations are currently in the [lang branch of my dihash repository](https://github.com/calebh/dihash/tree/lang). See the tex file for the latest proof WIP here: https://github.com/calebh/dihash/blob/lang/papers/lang.tex
+The work in progress proofs and implementations are currently in the [lang branch of my dihash repository](https://github.com/calebh/dihash/tree/lang). See the tex file for the latest proof WIP here: [https://github.com/calebh/dihash/blob/lang/papers/lang.tex](https://github.com/calebh/dihash/blob/lang/papers/lang.tex)
